@@ -43,7 +43,7 @@ boxes:
           - item: "bedrock:0:1"
             chance: 5
     - name: "&a&lUncommon Box"
-      box.id: loot
+      box.id: unc
       key:
           item: "tripwire_hook:2"
           name: "&8[Key]&r Loot"
@@ -135,5 +135,36 @@ boxes:
             chance: 10
           - item: "bedrock:0:40"
             chance: 5
+    - name: "&6&lVote Box"
+      box.id: Vote
+      key:
+          item: "tripwire_hook:5"
+          name: "&8[Key]&r Vote"
+          lore:
+              - "&7Type: &6Vote"
+              - "&7Source: &cunknown"
+              - " "
+              - "&fUsed to open &5&lMystery Vote Box"
+      rgb:
+          R: 255
+          G: 200
+          B: 200
+      items:
+          - item: "tripwire_hook:3:1"
+            chance: 25
+          - item: "tripwire_hook:2:1"
+            chance: 25
+          - item: "tripwire_hook:4:1"
+            chance: 25
+          - item: "tripwire_hook:1:1"
+            chance: 25
+          - item: "tripwire_hook:3:1"
+            chance: 25
+          - item: "tripwire_hook:4:1"
+            chance: 25
+          - item: "tripwire_hook:2:1"
+            chance: 25
+          - item: "tripwire_hook:1:1"
+            chance: 25
 
 ...
